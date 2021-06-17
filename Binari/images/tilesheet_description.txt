@@ -1,0 +1,39 @@
+
+bricks:
+    red:    11 12
+    blue:   13 14
+    green:  15 16 
+    cream:  17 18
+    gray:   19 20
+    rose:   21 22
+
+    bricks-specials:
+        one_colisions: 29 30
+        two_colisions: 31 32
+wall:
+    cream:  33 
+    gray:   34
+    white:  35
+    rose :  36
+    arrow:  37 38 #son necesarios 4 consecutivos apartir de la posicion 8 (countando desde 1)
+key: 
+    113 114
+    115 116 
+coin:
+    117 118
+    119 120
+moneybag:
+    121 122
+    123 124
+diamond:
+    125 126
+    127 128
+doorbell:
+    129 130
+    131 132
+cellphone:
+    133 134
+    135 136
+grapes:
+    137 138
+    139 140

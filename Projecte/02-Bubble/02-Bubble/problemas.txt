@@ -1,0 +1,17 @@
+1. Player y ball solo almacenan posiciones relativas  respecto un mapa que cabe dentro de una sola window. 
+Sin embargo el tamaño de nuestro mapa es igual al de 3 windows, por lo cual los objetos que aparacen en pantalla  interacturan solo con la room 3 (la de parte superior) del mapa.
+Una solucion es agregar una variable "posPlayerMap" que almacene la posicion real del player en el mapa.Sin embargo , esto no es del todo viable para ball.
+Solucion 2: mantener la logica de player y ball,es decir,mantenemos a que sean tratadas con las medidas de una window,pero añadimos una varibale "room" que nos indique en que room esta y con esto podremos determinar la posicion relativa en el mapa. 
+El orden de las room en el mapa es el siguiente:
+room 3 
+room 2
+room 1
+Vemos que al estar en vertical solo necesitamos modificar las coordenas en Y y no las en X.
+Las consultas al mapa se harian:
+
+room = 3
+	posmapa.y = poswindow.y +  ((3-room) * height_room) //usamos 3 porque si estamos en la room 3 estaremos al inicio y no hemos de sumar nada
+room = 2
+	posmapa.y = poswindow.y +  ((3-room) * height_room)
+room = 1
+	posmapa.y = poswindow.y +  ((3-room) * height_room)

@@ -1,0 +1,17 @@
+Emulator:
+ 1) https://www.emurom.net/us/play/play-msx-3409-break.in.html
+ From the emulator we can get images, sounds, and design of the game.
+ 2)in this emulator you can pause the game -> useul for the maps
+ https://www.retrogames.cc/msx1-games/break-in.html
+3) page of trick and cheats of the gamespot
+ https://gamefaqs.gamespot.com/msx/941359-break-in/cheats
+
+images: It has all the images of the project
+     - From the emulator we can get: intro, Menu, letters		
+
+levels: Maps of the tiles
+      - From the emulator we can  see the organization of levels 
+
+sounds: all the sounds
+        -From the emulator we can get: intro, Menu
+
